@@ -32,7 +32,7 @@ Copyright 2005-2016 Niels Lange
 */
 
 // Avoid direct plugin access
-if ( ! defined( 'ABSPATH' ) ) exit;
+if ( ! defined( 'ABSPATH' ) ) die('¯\_(ツ)_/¯');
 
 // Load text domain
 add_action('plugins_loaded', 'smntcs_adobe_typekit_fonts_load_textdomain');
