@@ -6,7 +6,7 @@ Version: 1.0
 Author: Niels Lange
 Author URI: https://nielslange.com
 Requires at least: 3.4
-Tested up to: 4.7
+Tested up to: 4.9
 License: GPLv2 or later
 Text Domain: smntcs-adobe-typekit-fonts
 */
