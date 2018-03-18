@@ -1,15 +1,17 @@
 <?php
 /*
-Plugin Name: SMNTCS Adobe Typekit Fonts
-Description: Adds Adobe Typekit Fonts to your WordPress site. 
-Version: 1.0
-Author: Niels Lange
-Author URI: https://nielslange.com
-Requires at least: 3.4
-Tested up to: 4.9
-License: GPLv2 or later
-Text Domain: smntcs-adobe-typekit-fonts
-*/
+ * Plugin Name: SMNTCS Adobe Typekit Fonts
+ * Plugin URI: https://github.com/nielslange/smntcs-adobe-typekit-fonts
+ * Description: Adds Adobe Typekit Fonts to your WordPress site. 
+ * Author: Niels Lange
+ * Author URI: https://nielslange.com
+ * Text Domain: smntcs-adobe-typekit-fonts
+ * Version: 1.1
+ * Requires at least: 3.4
+ * Tested up to: 4.9
+ * License: GPL2+
+ * License URI: https://www.gnu.org/licenses/gpl-2.0.html
+ */
 
 /*
 This program is free software; you can redistribute it and/or
@@ -30,7 +32,7 @@ Copyright 2005-2016 Niels Lange
 */
 
 // Avoid direct plugin access
-if ( !defined( 'ABSPATH' ) ) exit;
+if ( ! defined( 'ABSPATH' ) ) exit;
 
 // Load text domain
 add_action('plugins_loaded', 'smntcs_adobe_typekit_fonts_load_textdomain');
