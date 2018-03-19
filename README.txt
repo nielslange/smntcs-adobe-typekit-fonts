@@ -38,7 +38,7 @@ This issue might be caused by a security plugin. If you use a security plugin, e
 
 == Changelog ==
 
-= 1.0.1 =
+= 1.1 =
 * Add README.md
 
 = 1.0.1 =
