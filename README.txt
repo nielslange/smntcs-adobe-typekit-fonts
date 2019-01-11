@@ -5,7 +5,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: WordPress, Plugin, Adobe Typekit Fonts, Adobe, Typekit Fonts, Typekit, Fonts
 Stable tag: 1.1
 Requires at least: 3.4
-Tested up to: 4.9
+Tested up to: 5.0
 License: GPL2+
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
