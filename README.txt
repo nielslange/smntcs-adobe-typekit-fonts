@@ -13,7 +13,7 @@ Adds Adobe Typekit Fonts to your WordPress site.
 
 == Description ==
 
-TYhis plugin allows you adding Adobe Typekit Fonts to your WordPress site with ease.
+This plugin allows you adding Adobe Typekit Fonts to your WordPress site with ease.
 
 == Installation ==
 
