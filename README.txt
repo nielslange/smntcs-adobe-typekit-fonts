@@ -13,7 +13,7 @@ Adds Adobe Typekit Fonts to your WordPress site.
 
 == Description ==
 
-You have beautiful pictures and you want to whole world to see them? Why not adding the Pinterest Save Button so that your visitors are able to share your pictures on their Pinterest account? This plugin makes it super easy. Install, setup, done!
+TYhis plugin allows you adding Adobe Typekit Fonts to your WordPress site with ease.
 
 == Installation ==
 
