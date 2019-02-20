@@ -2,7 +2,7 @@
 
 Contributors: nielslange
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FWJKJT4WPV376
-Tags: WordPress, Plugin, Adobe Typekit Fonts, Adobe, Typekit Fonts, Typekit, Fonts
+Tags: Adobe Typekit Fonts, Typekit Fonts, Typekit, Fonts
 Stable tag: 1.3
 Requires at least: 3.4
 Tested up to: 5.1
