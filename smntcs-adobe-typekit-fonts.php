@@ -6,9 +6,9 @@
  * Author: Niels Lange
  * Author URI: https://nielslange.com
  * Text Domain: smntcs-adobe-typekit-fonts
- * Version: 1.1
+ * Version: 1.3
  * Requires at least: 3.4
- * Tested up to: 5.0
+ * Tested up to: 5.1
  * License: GPL2+
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  */

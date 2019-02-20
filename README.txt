@@ -3,9 +3,9 @@
 Contributors: nielslange
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FWJKJT4WPV376
 Tags: WordPress, Plugin, Adobe Typekit Fonts, Adobe, Typekit Fonts, Typekit, Fonts
-Stable tag: 1.1
+Stable tag: 1.3
 Requires at least: 3.4
-Tested up to: 5.0
+Tested up to: 5.1
 License: GPL2+
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -38,11 +38,14 @@ This issue might be caused by a security plugin. If you use a security plugin, e
 
 == Changelog ==
 
-= 1.1 =
-* Add README.md
+= 1.3 =
+* Tested up to 5.1
 
-= 1.0.1 =
-* Add FAQ
+= 1.2 =
+* Added README.md
+
+= 1.1 =
+* Added FAQ
 
 = 1.0 =
 * Initial release
