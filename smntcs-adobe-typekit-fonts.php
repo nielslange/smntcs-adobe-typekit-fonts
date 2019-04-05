@@ -35,6 +35,22 @@ function smntcs_adobe_typekit_fonts_load_textdomain() {
 	load_plugin_textdomain( 'smntcs-adobe-typekit-fonts', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
 }
 
+add_filter( 'plugin_action_links_' . plugin_basename( __FILE__ ), 'smntcs_adobe_typekit_fonts_settings_link' );
+/**
+ * Add settings link on plugin page
+ *
+ * @param string $links The settings link on the plugin page.
+ *
+ * @return mixed
+ */
+function smntcs_adobe_typekit_fonts_settings_link( $links ) {
+	$admin_url     = admin_url( 'customize.php?autofocus[control]=adobe_typekit_fonts_code' );
+	$settings_link = sprintf( '<a href="%s">%s</a>', $admin_url, __( 'Settings', 'smntcs-adobe-typekit-fonts' ) );
+	array_unshift( $links, $settings_link );
+
+	return $links;
+}
+
 add_action( 'customize_register', 'smntcs_adobe_typekit_fonts_register_customize' );
 /**
  * Add Adobe Typekit Fonts to WordPress Customizer
@@ -55,7 +71,6 @@ function smntcs_adobe_typekit_fonts_register_customize( $wp_customize ) {
 		array(
 			'default'           => '',
 			'type'              => 'option',
-			'sanitize_callback' => 'sanitize_textarea_field',
 		)
 	);
 
@@ -73,7 +88,6 @@ function smntcs_adobe_typekit_fonts_register_customize( $wp_customize ) {
 		array(
 			'default'           => '',
 			'type'              => 'option',
-			'sanitize_callback' => 'sanitize_textarea_field',
 		)
 	);
 
@@ -92,8 +106,9 @@ add_action( 'wp_head', 'smntcs_adobe_typekit_fonts_enqueue' );
  * Load Adobe Typekit Fonts code and custom CSS
  */
 function smntcs_adobe_typekit_fonts_enqueue() {
+
 	if ( get_option( 'adobe_typekit_fonts_code' ) && get_option( 'adobe_typekit_fonts_custom_css' ) ) {
-		print( esc_html( get_option( 'adobe_typekit_fonts_code' ) ) );
-		printf( '<style type="text/css" media="screen">%s</style>', esc_html( get_option( 'adobe_typekit_fonts_custom_css' ) ) );
+		print( get_option( 'adobe_typekit_fonts_code' ) );
+		printf( '<style type="text/css" media="screen">%s</style>', esc_attr( get_option( 'adobe_typekit_fonts_custom_css' ) ) );
 	}
 }
