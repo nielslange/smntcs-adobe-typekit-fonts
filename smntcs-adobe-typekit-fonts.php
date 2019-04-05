@@ -3,8 +3,8 @@
  * Plugin Name: SMNTCS Adobe Typekit Fonts
  * Plugin URI: https://github.com/nielslange/smntcs-adobe-typekit-fonts
  * Description: Adds Adobe Typekit Fonts to your WordPress site.
- * Author: Niels Lange
- * Author URI: https://nielslange.com
+ * Author: Niels Lange <info@nielslange.de>
+ * Author URI: https://nielslange.de
  * Text Domain: smntcs-adobe-typekit-fonts
  * Version: 1.4
  * Requires at least: 3.4
@@ -15,7 +15,7 @@
  *
  * @category   Plugin
  * @package    WordPress
- * @subpackage SMNTCS Admin Maintenance
+ * @subpackage SMNTCS Adobe Typekit Fonts
  * @author     Niels Lange <info@nielslange.de>
  * @license    http://opensource.org/licenses/gpl-license.php GNU Public License
  */
