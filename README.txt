@@ -1,28 +1,27 @@
 ===  SMNTCS Adobe Typekit Fonts ===
 
-Contributors: nielslange
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FWJKJT4WPV376
-Tags: Adobe Typekit Fonts, Typekit Fonts, Typekit, Fonts
-Stable tag: 1.5
+Contributors:      nielslange
+Tags:              Adobe Typekit Fonts, Typekit Fonts, Typekit, Fonts
+Stable tag:        1.6
+Tested up to:      6.0
 Requires at least: 3.4
-Requires PHP: 5.6
-Tested up to: 5.2
-License: GPL2+
-License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Requires PHP:      5.6
+License:           GPLv3+
+License URI:       https://www.gnu.org/licenses/gpl-3.0.en.html
 
-Adds Adobe Typekit Fonts to your WordPress site.
+Adds <a href="https://fonts.adobe.com/">Adobe Typekit Fonts</a> to your WordPress site.
 
 == Description ==
 
-This plugin allows you adding Adobe Typekit Fonts to your WordPress site with ease.
+This plugin allows you adding <a href="https://fonts.adobe.com/">Adobe Typekit Fonts</a> to your WordPress site with ease.
 
 == Installation ==
 
-1. Upload 'smntcs-pinterest-save-button' to the '/wp-content/plugins/' directory
-2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Go to 'Appearance' » 'Customize'
-4. Provide your Adobe Typekit Fonts code
-5. Customize the CSS according to your needs
+1. Upload `smntcs-adobe-typekit-fonts` to the `/wp-content/plugins/` directory.
+2. Activate the plugin through the `Plugins` menu in WordPress.
+3. Go to `Apperance` » `Customize`.
+4. Provide your Adobe Typekit Fonts code.
+5. Customize the CSS according to your needs.
 
 == Frequently Asked Questions ==
 
@@ -32,27 +31,33 @@ This issue might be caused by a security plugin. If you use a security plugin, e
 
 == Screenshots ==
 
-1. Upload and activate the plugin
-2. Open 'Appearance' » 'Customize'
-3. Provide your Adobe Typekit Fonts code
-4. Customize the CSS according to your needs
+1. Upload and activate the plugin.
+2. Open `Appearance` » `Customize`.
+3. Provide your Adobe Typekit Fonts code.
+4. Customize the CSS according to your needs.
 
 == Changelog ==
 
-= 1.5 =
-* Tested up to 5.2
+= 1.5 (2019-05-12) =
 
-= 1.4 =
-* Refactored based on PHPCS and WPCS
+- Tested up to 5.2
 
-= 1.3 =
-* Tested up to 5.1
+= 1.4 (2019-04-05) =
 
-= 1.2 =
-* Added README.md
+- Refactored based on PHPCS and WPCS
 
-= 1.1 =
-* Added FAQ
+= 1.3 (2019-02-20) =
 
-= 1.0 =
-* Initial release
+- Tested up to 5.1
+
+= 1.2 (2018-03-18) =
+
+- Added README.md
+
+= 1.1 (2016-12-24) =
+
+- Added FAQ
+
+= 1.0 (2016-10-16) =
+
+-Initial release
