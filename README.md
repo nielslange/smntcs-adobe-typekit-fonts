@@ -9,7 +9,7 @@
 ![Plugin Version](https://img.shields.io/wordpress/plugin/v/smntcs-adobe-typekit-fonts.svg)
 ![Tag Version](https://img.shields.io/github/tag/nielslange/smntcs-adobe-typekit-fonts.svg)
 
-Adds Adobe Typekit Fonts to your WordPress site.
+Adds [Adobe Typekit Fonts](https://fonts.adobe.com/) to your WordPress site.
 
 ## Installation
 
