@@ -1,28 +1,30 @@
 {
-	"name": "smntcs-adobe-typekit-fonts",
-	"description": "Adds Adobe Typekit Fonts to your WordPress site.",
-	"license": "GPL-2.0-or-later",
-	"keywords": [
-		"WordPress",
-		"Plugin",
-		"SMNTCS Adobe Typekit Fonts"
-	],
-	"homepage": "https://github.com/nielslange/smntcs-adobe-typekit-fonts#readme",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/nielslange/smntcs-adobe-typekit-fonts.git"
-	},
-	"bugs": {
-		"url": "https://github.com/nielslange/smntcs-adobe-typekit-fonts/issues"
-	},
-	"devDependencies": {
-		"@wordpress/env": "5.3.0",
-		"cypress": "^9.1"
-	},
-	"scripts": {
-		"cypress": "cypress",
-		"test:e2e": "cypress run --headless --browser chrome",
-		"test:e2e-dev": "cypress open",
-		"wp-env": "wp-env"
-	}
+  "name": "smntcs-adobe-typekit-fonts",
+  "description": "Adds Adobe Typekit Fonts to your WordPress site.",
+  "license": "GPL-2.0-or-later",
+  "keywords": [
+    "WordPress",
+    "Plugin",
+    "SMNTCS Adobe Typekit Fonts"
+  ],
+  "homepage": "https://github.com/nielslange/smntcs-adobe-typekit-fonts#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nielslange/smntcs-adobe-typekit-fonts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nielslange/smntcs-adobe-typekit-fonts/issues"
+  },
+  "devDependencies": {
+    "@wordpress/env": "5.3.0",
+    "@wordpress/prettier-config": "1.1.1",
+    "cypress": "^9.1",
+    "prettier": "npm:wp-prettier@2.0.5"
+  },
+  "scripts": {
+    "cypress": "cypress",
+    "test:e2e": "cypress run --headless --browser chrome",
+    "test:e2e-dev": "cypress open",
+    "wp-env": "wp-env"
+  }
 }

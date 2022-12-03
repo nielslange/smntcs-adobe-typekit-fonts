@@ -21,26 +21,34 @@ Adds [Adobe Typekit Fonts](https://fonts.adobe.com/) to your WordPress site.
 
 ## Changelog
 
-### 1.5 (2019-05-12)
+### 1.7 (2022.12.03)
 
-- Tested up to 5.2
+- Tested up to WP 6.1
 
-### 1.4 (2019-04-05)
+### 1.6 (2022.10.02)
+
+- Adjust GitHub Actions trigger
+
+### 1.5 (2019.05.12)
+
+- Tested up to WP 5.2
+
+### 1.4 (2019.04.05)
 
 - Refactored based on PHPCS and WPCS
 
-### 1.3 (2019-02-20)
+### 1.3 (2019.02.20)
 
-- Tested up to 5.1
+- Tested up to WP 5.1
 
-### 1.2 (2018-03-18)
+### 1.2 (2018.03.18)
 
 - Added README.md
 
-### 1.1 (2016-12-24)
+### 1.1 (2016.12.24)
 
 - Added FAQ
 
-### 1.0 (2016-10-16)
+### 1.0 (2016.10.16)
 
--Initial release
+- Initial release
