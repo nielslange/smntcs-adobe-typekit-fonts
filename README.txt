@@ -2,8 +2,8 @@
 
 Contributors:       nielslange
 Tags:               Adobe Typekit Fonts, Typekit Fonts, Typekit, Fonts
-Stable tag:         1.7
-Tested up to:       6.1
+Stable tag:         1.8
+Tested up to:       6.4
 Requires PHP:       5.6
 Requires at least:  3.4
 License:            GPL v2 or later
@@ -37,6 +37,10 @@ This issue might be caused by a security plugin. If you use a security plugin, e
 4. Customize the CSS according to your needs.
 
 == Changelog ==
+
+= 1.8 (2023.10.15) =
+
+- Tested up to WP 6.4
 
 = 1.7 (2022.12.03) =
 
