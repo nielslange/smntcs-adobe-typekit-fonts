@@ -2,7 +2,7 @@
 
 Contributors:       nielslange
 Tags:               Adobe Typekit Fonts, Typekit Fonts, Typekit, Fonts
-Stable tag:         1.9
+Stable tag:         2.0
 Tested up to:       6.8
 Requires PHP:       7.4
 Requires at least:  3.4
@@ -38,9 +38,13 @@ This issue might be caused by a security plugin. If you use a security plugin, e
 
 == Changelog ==
 
-= 1.9 (2024.07.24) =
+= 2.0 (2025.03.22) =
 
 - Tested up to WordPress 6.8
+
+= 1.9 (2024.07.24) =
+
+- Tested up to WordPress 6.6
 
 = 1.8 (2023.10.15) =
 

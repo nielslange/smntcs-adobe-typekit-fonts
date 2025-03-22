@@ -6,7 +6,7 @@
  * Author:                Niels Lange
  * Author URI:            https://nielslange.de
  * Text Domain:           smntcs-adobe-typekit-fonts
- * Version:               1.9
+ * Version:               2.0
  * Requires PHP:          7.4
  * Requires at least:     3.4
  * License:               GPL v2 or later
