@@ -19,6 +19,11 @@ Adds [Adobe Typekit Fonts](https://fonts.adobe.com/) to your WordPress site.
 4. Provide your Adobe Typekit Fonts code.
 5. Customize the CSS according to your needs.
 
+## Plugin page
+
+You can find the plugin on
+<https://wordpress.org/plugins/smntcs-adobe-typekit-fonts/>.
+
 ## Changelog
 
 ### 2.0 (2025.03.22)

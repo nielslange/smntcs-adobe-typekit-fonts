@@ -30,10 +30,10 @@ class SMNTCS_Adobe_Typekit_Fonts {
 	 * @return void
 	 * @since 1.2.0
 	 */
-	public static function init() {
-		add_action( 'customize_register', array( __CLASS__, 'register_customizer' ) );
-		add_filter( 'plugin_action_links_' . plugin_basename( __FILE__ ), array( __CLASS__, 'add_settings_link' ) );
-		add_action( 'wp_head', array( __CLASS__, 'enqueue_adobe_typekit_fonts' ) );
+	public function __construct() {
+		add_action( 'customize_register', array( $this, 'register_customizer' ) );
+		add_filter( 'plugin_action_links_' . plugin_basename( __FILE__ ), array( $this, 'settings_link' ) );
+		add_action( 'wp_head', array( $this, 'enqueue_adobe_typekit_fonts' ) );
 	}
 
 	/**
@@ -43,7 +43,7 @@ class SMNTCS_Adobe_Typekit_Fonts {
 	 * @return mixed
 	 * @since 1.0.0
 	 */
-	public static function add_settings_link( $links ) {
+	public function settings_link( $links ) {
 		$links         = (array) $links;
 		$admin_url     = admin_url( 'customize.php?autofocus[control]=adobe_typekit_fonts_code' );
 		$settings_link = sprintf( '<a href="%s">%s</a>', $admin_url, __( 'Settings', 'smntcs-adobe-typekit-fonts' ) );
@@ -60,7 +60,7 @@ class SMNTCS_Adobe_Typekit_Fonts {
 	 * @return void
 	 * @since 1.0.0
 	 */
-	public static function register_customizer( $wp_customize ) {
+	public function register_customizer( $wp_customize ) {
 		$wp_customize->add_section(
 			'adobe_typekit_fonts_section',
 			array(
@@ -109,8 +109,8 @@ class SMNTCS_Adobe_Typekit_Fonts {
 	 */
 	public static function enqueue_adobe_typekit_fonts() {
 		$typekit_code = get_option( 'adobe_typekit_fonts_code' );
-		$custom_css = get_option( 'adobe_typekit_fonts_custom_css' );
-		
+		$custom_css   = get_option( 'adobe_typekit_fonts_custom_css' );
+
 		if ( $typekit_code && $custom_css ) {
 			// phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 			print( $typekit_code );
@@ -119,4 +119,4 @@ class SMNTCS_Adobe_Typekit_Fonts {
 	}
 }
 
-SMNTCS_Adobe_Typekit_Fonts::init();
+new SMNTCS_Adobe_Typekit_Fonts();
