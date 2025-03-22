@@ -6,8 +6,8 @@
  * Author:                Niels Lange
  * Author URI:            https://nielslange.de
  * Text Domain:           smntcs-adobe-typekit-fonts
- * Version:               1.8
- * Requires PHP:          5.6
+ * Version:               1.9
+ * Requires PHP:          7.4
  * Requires at least:     3.4
  * License:               GPL v2 or later
  * License URI:           https://www.gnu.org/licenses/gpl-2.0.html
@@ -108,10 +108,13 @@ class SMNTCS_Adobe_Typekit_Fonts {
 	 * Load Adobe Typekit Fonts code and custom CSS
 	 */
 	public static function enqueue_adobe_typekit_fonts() {
-		if ( get_option( 'adobe_typekit_fonts_code' ) && get_option( 'adobe_typekit_fonts_custom_css' ) ) {
+		$typekit_code = get_option( 'adobe_typekit_fonts_code' );
+		$custom_css = get_option( 'adobe_typekit_fonts_custom_css' );
+		
+		if ( $typekit_code && $custom_css ) {
 			// phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
-			print( get_option( 'adobe_typekit_fonts_code' ) );
-			printf( '<style type="text/css" media="screen">%s</style>', esc_attr( get_option( 'adobe_typekit_fonts_custom_css' ) ) );
+			print( $typekit_code );
+			printf( '<style type="text/css" media="screen">%s</style>', esc_attr( $custom_css ) );
 		}
 	}
 }

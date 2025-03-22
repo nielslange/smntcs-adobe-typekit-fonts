@@ -2,9 +2,9 @@
 
 Contributors:       nielslange
 Tags:               Adobe Typekit Fonts, Typekit Fonts, Typekit, Fonts
-Stable tag:         1.8
-Tested up to:       6.4
-Requires PHP:       5.6
+Stable tag:         1.9
+Tested up to:       6.8
+Requires PHP:       7.4
 Requires at least:  3.4
 License:            GPL v2 or later
 License URI:        https://www.gnu.org/licenses/gpl-2.0.html
@@ -27,7 +27,7 @@ This plugin allows you adding <a href="https://fonts.adobe.com/">Adobe Typekit F
 
 = Why am I not able to save the Adobe Typekit Fonts code? =
 
-This issue might be caused by a security plugin. If you use a security plugin, e.g. Wordfence, then disable it so save your Adobe Typekit Fonts code and activate it once you’re done.
+This issue might be caused by a security plugin. If you use a security plugin, e.g. Wordfence, then disable it so save your Adobe Typekit Fonts code and activate it once you're done.
 
 == Screenshots ==
 
@@ -38,13 +38,17 @@ This issue might be caused by a security plugin. If you use a security plugin, e
 
 == Changelog ==
 
+= 1.9 (2024.07.24) =
+
+- Tested up to WordPress 6.8
+
 = 1.8 (2023.10.15) =
 
-- Tested up to WP 6.4
+- Tested up to WordPress 6.4
 
 = 1.7 (2022.12.03) =
 
-- Tested up to WP 6.1
+- Tested up to WordPress 6.1
 
 = 1.6 (2022.10.02) =
 
@@ -52,7 +56,7 @@ This issue might be caused by a security plugin. If you use a security plugin, e
 
 = 1.5 (2019.05.12) =
 
-- Tested up to WP 5.2
+- Tested up to WordPress 5.2
 
 = 1.4 (2019.04.05) =
 
@@ -60,7 +64,7 @@ This issue might be caused by a security plugin. If you use a security plugin, e
 
 = 1.3 (2019.02.20) =
 
-- Tested up to WP 5.1
+- Tested up to WordPress 5.1
 
 = 1.2 (2018.03.18) =
 
