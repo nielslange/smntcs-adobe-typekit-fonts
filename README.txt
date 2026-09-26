@@ -1,25 +1,31 @@
-===  SMNTCS Adobe Typekit Fonts ===
+=== SMNTCS Adobe Typekit Fonts ===
 
 Contributors:       nielslange
-Tags:               Adobe Typekit Fonts, Typekit Fonts, Typekit, Fonts
-Stable tag:         2.0
-Tested up to:       6.8
-Requires PHP:       7.4
+Tags:               adobe fonts, typekit, fonts, typography, web fonts
 Requires at least:  3.4
+Tested up to:       7.1
+Requires PHP:       7.4
+Stable tag:         2.1
 License:            GPL v2 or later
 License URI:        https://www.gnu.org/licenses/gpl-2.0.html
 
-Adds <a href="https://fonts.adobe.com/">Adobe Typekit Fonts</a> to your WordPress site.
+Adds your Adobe Fonts (formerly Typekit) web project to WordPress and lets you style your site with custom CSS.
 
 == Description ==
 
-This plugin allows you adding <a href="https://fonts.adobe.com/">Adobe Typekit Fonts</a> to your WordPress site with ease.
+SMNTCS Adobe Typekit Fonts loads your [Adobe Fonts](https://fonts.adobe.com/) web project on every page of your site. Paste the embed code from Adobe Fonts into the Customizer, add the CSS rules that use your fonts, and you are done.
+
+= Features =
+
+* Paste the Adobe Fonts embed code in the Customizer
+* Add custom CSS for your font rules in the same place
+* No theme changes needed
 
 == Installation ==
 
 1. Upload `smntcs-adobe-typekit-fonts` to the `/wp-content/plugins/` directory.
 2. Activate the plugin through the `Plugins` menu in WordPress.
-3. Go to `Apperance` » `Customize`.
+3. Go to `Appearance` » `Customize`.
 4. Provide your Adobe Typekit Fonts code.
 5. Customize the CSS according to your needs.
 
@@ -27,7 +33,7 @@ This plugin allows you adding <a href="https://fonts.adobe.com/">Adobe Typekit F
 
 = Why am I not able to save the Adobe Typekit Fonts code? =
 
-This issue might be caused by a security plugin. If you use a security plugin, e.g. Wordfence, then disable it so save your Adobe Typekit Fonts code and activate it once you're done.
+This issue might be caused by a security plugin. If you use a security plugin, e.g. Wordfence, then disable it to save your Adobe Typekit Fonts code and activate it once you're done.
 
 == Screenshots ==
 
@@ -37,6 +43,12 @@ This issue might be caused by a security plugin. If you use a security plugin, e
 4. Customize the CSS according to your needs.
 
 == Changelog ==
+
+= 2.1 (2026.09.26) =
+
+- Test up to WordPress 7.1
+- Update development dependencies and GitHub Actions
+- Fix the number of arguments passed to hook callbacks
 
 = 2.0 (2025.03.22) =
 

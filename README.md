@@ -15,7 +15,7 @@ Adds [Adobe Typekit Fonts](https://fonts.adobe.com/) to your WordPress site.
 
 1. Upload `smntcs-adobe-typekit-fonts` to the `/wp-content/plugins/` directory.
 2. Activate the plugin through the `Plugins` menu in WordPress.
-3. Go to `Apperance` » `Customize`.
+3. Go to `Appearance` » `Customize`.
 4. Provide your Adobe Typekit Fonts code.
 5. Customize the CSS according to your needs.
 
@@ -25,6 +25,12 @@ You can find the plugin on
 <https://wordpress.org/plugins/smntcs-adobe-typekit-fonts/>.
 
 ## Changelog
+
+### 2.1 (2026.09.26)
+
+- Test up to WordPress 7.1
+- Update development dependencies and GitHub Actions
+- Fix the number of arguments passed to hook callbacks
 
 ### 2.0 (2025.03.22)
 

@@ -6,7 +6,7 @@
  * Author:                Niels Lange
  * Author URI:            https://nielslange.de
  * Text Domain:           smntcs-adobe-typekit-fonts
- * Version:               2.0
+ * Version:               2.1
  * Requires PHP:          7.4
  * Requires at least:     3.4
  * License:               GPL v2 or later
@@ -33,18 +33,17 @@ class SMNTCS_Adobe_Typekit_Fonts {
 	public function __construct() {
 		add_action( 'customize_register', array( $this, 'register_customizer' ) );
 		add_filter( 'plugin_action_links_' . plugin_basename( __FILE__ ), array( $this, 'settings_link' ) );
-		add_action( 'wp_head', array( $this, 'enqueue_adobe_typekit_fonts' ) );
+		add_action( 'wp_head', array( $this, 'enqueue_adobe_typekit_fonts' ), 10, 0 );
 	}
 
 	/**
 	 * Add settings link on plugin page.
 	 *
-	 * @param string $links The settings link on the plugin page.
-	 * @return mixed
+	 * @param string[] $links The action links on the plugin page.
+	 * @return string[]
 	 * @since 1.0.0
 	 */
 	public function settings_link( $links ) {
-		$links         = (array) $links;
 		$admin_url     = admin_url( 'customize.php?autofocus[control]=adobe_typekit_fonts_code' );
 		$settings_link = sprintf( '<a href="%s">%s</a>', $admin_url, __( 'Settings', 'smntcs-adobe-typekit-fonts' ) );
 
