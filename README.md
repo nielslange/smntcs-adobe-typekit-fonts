@@ -2,9 +2,9 @@
 
 ![Support Level](https://img.shields.io/badge/support-active-green.svg)
 ![Build Status](https://github.com/nielslange/smntcs-adobe-typekit-fonts/actions/workflows/test.yml/badge.svg)
-![GPLv3 License](https://img.shields.io/github/license/nielslange/smntcs-adobe-typekit-fonts.svg)
-![Compatible to WordPress version](https://plugintests.com/plugins/smntcs-adobe-typekit-fonts/wp-badge.svg)
-![Compatible to PHP version](https://plugintests.com/plugins/smntcs-adobe-typekit-fonts/php-badge.svg)
+![GPLv2 License](https://img.shields.io/github/license/nielslange/smntcs-adobe-typekit-fonts.svg)
+![Compatible to WordPress version](https://img.shields.io/wordpress/plugin/tested/smntcs-adobe-typekit-fonts.svg)
+![Compatible to PHP version](https://img.shields.io/wordpress/plugin/required-php/smntcs-adobe-typekit-fonts.svg)
 ![Downloads](https://img.shields.io/wordpress/plugin/dt/smntcs-adobe-typekit-fonts.svg)
 ![Plugin Version](https://img.shields.io/wordpress/plugin/v/smntcs-adobe-typekit-fonts.svg)
 ![Tag Version](https://img.shields.io/github/tag/nielslange/smntcs-adobe-typekit-fonts.svg)
