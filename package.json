@@ -18,19 +18,15 @@
   "devDependencies": {
     "@wordpress/env": "11.16.0",
     "@wordpress/prettier-config": "4.56.0",
-    "cypress": "^16.1",
     "npm-run-all2": "^9.0.3",
     "prettier": "npm:wp-prettier@3.9.6"
   },
   "scripts": {
-    "cypress": "cypress",
     "phpcbf": "composer run phpcbf",
     "phpcs": "composer run phpcs",
     "phplint": "composer run phplint",
     "psalm": "composer run psalm",
     "test": "npm-run-all --parallel phpcs phplint psalm",
-    "test:e2e": "cypress run --headless --browser chrome",
-    "test:e2e-dev": "cypress open",
     "wp-env": "wp-env"
   }
 }
